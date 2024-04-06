@@ -2,9 +2,9 @@
   "ExpandedNodes": [
     "",
     "\\src",
-    "\\src\\IO.Swagger.Test",
-    "\\src\\IO.Swagger.Test\\Api"
+    "\\src\\IO.FoodDataCentralSDK",
+    "\\src\\IO.FoodDataCentralSDK.Test"
   ],
-  "SelectedNode": "\\src\\IO.Swagger.Test\\Api\\FDCApiTests.cs",
+  "SelectedNode": "\\src\\IO.FoodDataCentralSDK",
   "PreviewInSolutionExplorer": false
 }

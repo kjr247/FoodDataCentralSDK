@@ -1,4 +1,4 @@
-# IO.Swagger.Model.RetentionFactor
+# IO.FoodDataCentralSDK.Model.RetentionFactor
 ## Properties
 
 Name | Type | Description | Notes

@@ -1,4 +1,4 @@
-# IO.Swagger.Model.BrandedFoodItemLabelNutrientsFiber
+# IO.FoodDataCentralSDK.Model.BrandedFoodItemLabelNutrientsFiber
 ## Properties
 
 Name | Type | Description | Notes

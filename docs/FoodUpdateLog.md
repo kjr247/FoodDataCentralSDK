@@ -1,4 +1,4 @@
-# IO.Swagger.Model.FoodUpdateLog
+# IO.FoodDataCentralSDK.Model.FoodUpdateLog
 ## Properties
 
 Name | Type | Description | Notes

@@ -1,4 +1,4 @@
-# IO.Swagger.Model.BrandedFoodItemLabelNutrientsPotassium
+# IO.FoodDataCentralSDK.Model.BrandedFoodItemLabelNutrientsPotassium
 ## Properties
 
 Name | Type | Description | Notes

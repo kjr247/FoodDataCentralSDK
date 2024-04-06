@@ -1,4 +1,4 @@
-# IO.Swagger.Model.InlineResponse200
+# IO.FoodDataCentralSDK.Model.InlineResponse200
 ## Properties
 
 Name | Type | Description | Notes

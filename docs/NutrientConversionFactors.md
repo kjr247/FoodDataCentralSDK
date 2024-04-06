@@ -1,4 +1,4 @@
-# IO.Swagger.Model.NutrientConversionFactors
+# IO.FoodDataCentralSDK.Model.NutrientConversionFactors
 ## Properties
 
 Name | Type | Description | Notes

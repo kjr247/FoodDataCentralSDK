@@ -1,4 +1,4 @@
-# IO.Swagger.Model.SRLegacyFoodItem
+# IO.FoodDataCentralSDK.Model.SRLegacyFoodItem
 ## Properties
 
 Name | Type | Description | Notes

@@ -1,4 +1,4 @@
-# IO.Swagger.Model.Nutrient
+# IO.FoodDataCentralSDK.Model.Nutrient
 ## Properties
 
 Name | Type | Description | Notes

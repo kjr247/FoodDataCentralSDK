@@ -1,4 +1,4 @@
-# IO.Swagger.Api.FDCApi
+# IO.FoodDataCentralSDK.Api.FDCApi
 
 All URIs are relative to *https://api.nal.usda.gov/fdc*
 
@@ -26,9 +26,9 @@ Retrieves a single food item by an FDC ID. Optional format and nutrients can be 
 ```csharp
 using System;
 using System.Diagnostics;
-using IO.Swagger.Api;
-using IO.Swagger.Client;
-using IO.Swagger.Model;
+using IO.FoodDataCentralSDK.Api;
+using IO.FoodDataCentralSDK.Client;
+using IO.FoodDataCentralSDK.Model;
 
 namespace Example
 {
@@ -95,9 +95,9 @@ Retrieves a list of food items by a list of up to 20 FDC IDs. Optional format an
 ```csharp
 using System;
 using System.Diagnostics;
-using IO.Swagger.Api;
-using IO.Swagger.Client;
-using IO.Swagger.Model;
+using IO.FoodDataCentralSDK.Api;
+using IO.FoodDataCentralSDK.Client;
+using IO.FoodDataCentralSDK.Model;
 
 namespace Example
 {
@@ -164,9 +164,9 @@ Retrieves a paged list of foods. Use the pageNumber parameter to page through th
 ```csharp
 using System;
 using System.Diagnostics;
-using IO.Swagger.Api;
-using IO.Swagger.Client;
-using IO.Swagger.Model;
+using IO.FoodDataCentralSDK.Api;
+using IO.FoodDataCentralSDK.Client;
+using IO.FoodDataCentralSDK.Model;
 
 namespace Example
 {
@@ -237,9 +237,9 @@ Search for foods using keywords. Results can be filtered by dataType and there a
 ```csharp
 using System;
 using System.Diagnostics;
-using IO.Swagger.Api;
-using IO.Swagger.Client;
-using IO.Swagger.Model;
+using IO.FoodDataCentralSDK.Api;
+using IO.FoodDataCentralSDK.Client;
+using IO.FoodDataCentralSDK.Model;
 
 namespace Example
 {
@@ -314,9 +314,9 @@ The OpenAPI 3.0 specification for the FDC API rendered as JSON (JavaScript Objec
 ```csharp
 using System;
 using System.Diagnostics;
-using IO.Swagger.Api;
-using IO.Swagger.Client;
-using IO.Swagger.Model;
+using IO.FoodDataCentralSDK.Api;
+using IO.FoodDataCentralSDK.Client;
+using IO.FoodDataCentralSDK.Model;
 
 namespace Example
 {
@@ -374,9 +374,9 @@ The OpenAPI 3.0 specification for the FDC API rendered as YAML (YAML Ain't Marku
 ```csharp
 using System;
 using System.Diagnostics;
-using IO.Swagger.Api;
-using IO.Swagger.Client;
-using IO.Swagger.Model;
+using IO.FoodDataCentralSDK.Api;
+using IO.FoodDataCentralSDK.Client;
+using IO.FoodDataCentralSDK.Model;
 
 namespace Example
 {
@@ -434,9 +434,9 @@ Retrieves a list of food items by a list of up to 20 FDC IDs. Optional format an
 ```csharp
 using System;
 using System.Diagnostics;
-using IO.Swagger.Api;
-using IO.Swagger.Client;
-using IO.Swagger.Model;
+using IO.FoodDataCentralSDK.Api;
+using IO.FoodDataCentralSDK.Client;
+using IO.FoodDataCentralSDK.Model;
 
 namespace Example
 {
@@ -499,9 +499,9 @@ Retrieves a paged list of foods. Use the pageNumber parameter to page through th
 ```csharp
 using System;
 using System.Diagnostics;
-using IO.Swagger.Api;
-using IO.Swagger.Client;
-using IO.Swagger.Model;
+using IO.FoodDataCentralSDK.Api;
+using IO.FoodDataCentralSDK.Client;
+using IO.FoodDataCentralSDK.Model;
 
 namespace Example
 {
@@ -564,9 +564,9 @@ Search for foods using keywords. Results can be filtered by dataType and there a
 ```csharp
 using System;
 using System.Diagnostics;
-using IO.Swagger.Api;
-using IO.Swagger.Client;
-using IO.Swagger.Model;
+using IO.FoodDataCentralSDK.Api;
+using IO.FoodDataCentralSDK.Client;
+using IO.FoodDataCentralSDK.Model;
 
 namespace Example
 {

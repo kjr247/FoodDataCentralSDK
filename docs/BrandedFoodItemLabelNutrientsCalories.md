@@ -1,4 +1,4 @@
-# IO.Swagger.Model.BrandedFoodItemLabelNutrientsCalories
+# IO.FoodDataCentralSDK.Model.BrandedFoodItemLabelNutrientsCalories
 ## Properties
 
 Name | Type | Description | Notes

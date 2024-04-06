@@ -1,4 +1,4 @@
-# IO.Swagger - the C# library for the Food Data Central API
+# IO.FoodDataCentralSDK - the C# library for the Food Data Central API
 
 The FoodData Central API provides REST access to FoodData Central (FDC). It is intended primarily to assist application developers wishing to incorporate nutrient data into their applications or websites.   To take full advantage of the API, developers should familiarize themselves with the database by reading the database documentation available via links on [Data Type Documentation](https://fdc.nal.usda.gov/data-documentation.html). This documentation provides the detailed definitions and descriptions needed to understand the data elements referenced in the API documentation.      Additional details about the API including rate limits, access, and licensing are available on the [FDC website](https://fdc.nal.usda.gov/api-guide.html)
 
@@ -37,9 +37,9 @@ Run the following command to generate the DLL
 
 Then include the DLL (under the `bin` folder) in the C# project, and use the namespaces:
 ```csharp
-using IO.Swagger.Api;
-using IO.Swagger.Client;
-using IO.Swagger.Model;
+using IO.FoodDataCentralSDK.Api;
+using IO.FoodDataCentralSDK.Client;
+using IO.FoodDataCentralSDK.Model;
 ```
 <a name="packaging"></a>
 ## Packaging
@@ -49,7 +49,7 @@ A `.nuspec` is included with the project. You can follow the Nuget quickstart to
 This `.nuspec` uses placeholders from the `.csproj`, so build the `.csproj` directly:
 
 ```
-nuget pack -Build -OutputDirectory out IO.Swagger.csproj
+nuget pack -Build -OutputDirectory out IO.FoodDataCentralSDK.csproj
 ```
 
 Then, publish to a [local feed](https://docs.microsoft.com/en-us/nuget/hosting-packages/local-feeds) or [other host](https://docs.microsoft.com/en-us/nuget/hosting-packages/overview) and consume the new package via Nuget as usual.
@@ -60,9 +60,9 @@ Then, publish to a [local feed](https://docs.microsoft.com/en-us/nuget/hosting-p
 ```csharp
 using System;
 using System.Diagnostics;
-using IO.Swagger.Api;
-using IO.Swagger.Client;
-using IO.Swagger.Model;
+using IO.FoodDataCentralSDK.Api;
+using IO.FoodDataCentralSDK.Client;
+using IO.FoodDataCentralSDK.Model;
 
 namespace Example
 {
@@ -169,3 +169,20 @@ Class | Method | HTTP request | Description
 - **API key parameter name**: api_key
 - **Location**: URL query string
 
+
+## publish to nuget registry
+
+
+click on pack.bat
+
+```
+cd .\src\IO.FoodDataCentralSDK
+..\..\nuget pack -Build -OutputDirectory out FoodDataCentralSDK.csproj
+```
+
+add your api key in INSERT_Nuget_API_Key_Here
+and create and run publish.bat note that this file is not checked in and is ignored.
+be sure to change the version by clicking on the project and opening properties and changing the assembly info. then update the version below as x.x.x.nupkg
+```
+..\..\nuget push out\FoodDataCentralSDK.1.0.2.nupkg <INSERT_Nuget_API_Key_Here> -Source https://api.nuget.org/v3/index.json
+```

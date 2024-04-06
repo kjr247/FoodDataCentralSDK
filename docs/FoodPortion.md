@@ -1,4 +1,4 @@
-# IO.Swagger.Model.FoodPortion
+# IO.FoodDataCentralSDK.Model.FoodPortion
 ## Properties
 
 Name | Type | Description | Notes

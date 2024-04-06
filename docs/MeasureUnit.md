@@ -1,4 +1,4 @@
-# IO.Swagger.Model.MeasureUnit
+# IO.FoodDataCentralSDK.Model.MeasureUnit
 ## Properties
 
 Name | Type | Description | Notes

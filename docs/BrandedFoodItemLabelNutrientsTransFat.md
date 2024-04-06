@@ -1,4 +1,4 @@
-# IO.Swagger.Model.BrandedFoodItemLabelNutrientsTransFat
+# IO.FoodDataCentralSDK.Model.BrandedFoodItemLabelNutrientsTransFat
 ## Properties
 
 Name | Type | Description | Notes

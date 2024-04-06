@@ -1,4 +1,4 @@
-# IO.Swagger.Model.FoodSearchCriteria
+# IO.FoodDataCentralSDK.Model.FoodSearchCriteria
 ## Properties
 
 Name | Type | Description | Notes
