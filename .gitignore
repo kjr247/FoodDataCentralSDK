@@ -187,3 +187,4 @@ $RECYCLE.BIN/
 **/*.sln.ide
 
 publish.bat
+**/.vs/
